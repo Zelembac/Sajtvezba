@@ -1,0 +1,196 @@
+* {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.prvideo {
+    background-color: #1F2937;
+   
+    height: 450px;
+}
+.vrh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px
+
+} 
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.logo, .linkovi {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .linkovi {
+      
+      color: #E5E7EB;
+      font-size: 18px;
+      margin-bottom: 50px;
+      margin-right: 100px;
+  }
+  .obazajedno {
+      display: flex;
+      flex-direction: row;
+      margin-left: 100px;
+  }
+  .levideo button {
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .text{
+      text-align: left;
+      width: 500px;
+      font-size: 18px;
+      color: #E5E7EB;
+  }
+  .naslov{
+      font-weight: bolder;
+      font-size: 48px;
+      width: 500px;
+      margin-bottom: 20px;
+      color: #F9FAF8;
+  }
+  .levideo{
+      gap: 10px;
+      flex: 1;
+  }
+  .desnideo img{
+      flex: 1;
+      height: 300px;
+  }
+  .desnideo {
+      flex: 1;
+  }
+  .drugideo {
+      background-color: #F9FAF8;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+      
+  }
+  .trecideo {
+      background-color: #E5E7EB;
+      height: 400px;
+      text-align: center;
+      color: #1F2937;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .naslov2 {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    
+  }
+  .sliketekstovi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+  }
+  .slikatext {
+      text-align: center;
+      color: #999999a2;
+      text-align: center;
+      width: 200px;
+      height: 300px;
+      font-size: 18px;
+
+  }
+ .slikatext img {
+     height: 150px;
+     width: 150px;
+     border: #3882f6 solid 4px;
+     border-radius: 8px;
+ }
+ .potpis {
+     margin-top: 300px;
+     text-align: end;
+     font-weight: bold; 
+     font-size: 20px;
+ }
+ .glupitext {
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 900px;
+ }
+ .cetvrtideo{
+     background-color: #F9FAF8;
+     height: 300px;
+     
+     display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+ .plavideo{
+     background-color: #3882f6;
+     margin-left: 400px;
+     margin-right: 400px;
+    height: 200px;
+     border-radius: 8px;
+     display: flex;
+    flex-direction: row;
+    width: 900px;
+ }
+ .plavideo button {
+    border: 3px solid white;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 60px;
+    margin-right: 30px;
+    width: 150px;
+ }
+ .dvatextaplavideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    color: #F9FAF8;
+    text-align: center;
+ }
+ .naslov3 {
+     
+     font-size: 20px;
+     font-weight: bolder;
+
+ }
+ .petideo {
+     background-color: #1F2937;
+     text-align: center;
+     color: #E5E7EB;
+     height: 60px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+ }
